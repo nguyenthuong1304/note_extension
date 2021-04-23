@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+p, #notes {
+    font-family: Roboto, Arial;
+}
+h3 {
+    font-size: 16px;
+    display: inline;
+    letter-spacing: 1px;
+}
+p {
+    font-size: 100%;
+}
+a {
+    text-decoration: none;
+}
+h3:hover, p:hover {
+    cursor: default;
+}
+#notes {
+    min-width: 300px;
+    min-height: 300px;
+    width: 500px;
+    height: 500px;
+    max-width: 700px;
+    max-height: 700px;
+    outline: 0 !important;
+    caret-color: #f90;
+}
+#appIcon {
+    width: 32px; /* icon width, used in animation.css */
+}
+#rgbLogo {
+    width: 48px;
+}
+.icon {
+    border-radius: 50%;
+    padding: 8px;
+    margin: 2px;
+    /*transition: 0.2s ease-in-out;*/
+}
+.icon:hover {
+    cursor: pointer;
+    /*transform: scale(1.1);*/
+}
+h3, p, .icon, img, details {
+    user-select: none;
+}
+hr {
+    border: 1px dashed #666;
+}
+kbd {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+ul {
+    text-align: left;
+    padding-left: 20px;
+}
+#menuIcon {
+    left: 0;
+    text-align: left;
+    position: absolute;
+}
+.modal-content p {
+    line-height: 25px;
+}
+#help-modal .modal-content {
+    text-align: left;
+}
+.icon.active {
+    background-color: #f69;
+}
